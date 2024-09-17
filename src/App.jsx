@@ -6,7 +6,7 @@ import './App.css'
 
 
 export default function App() {
-  const [selectedContact, setSelectedContactId] = useState(null)
+  const [selectedContactId, setSelectedContactId] = useState(null)
 
   return (
     <>

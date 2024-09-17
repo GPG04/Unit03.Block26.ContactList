@@ -50,11 +50,12 @@ export default function SelectedContact({
                 </p>
                </div>
             )}
-            <button>
+            <button
                 onClick={() => {
                     setSelectedContactId(null);
                 }}
-                
+                >
+                    Click
             </button>
         </div>
         

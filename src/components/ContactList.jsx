@@ -1,3 +1,4 @@
+import { useEffect, useState } from "react";
 import React from "react";
 import ContactRow from "./ContactRow"
 
@@ -46,7 +47,7 @@ export default function ContactList({ setSelectedContactId }) {
                     contacts.map((contact) => {
                         return (
                     <ContactRow
-                        key={contacts.id}
+                        key={contact.id}
                         contact={contact}
                         setSelectedContactId={setSelectedContactId}
                         />
